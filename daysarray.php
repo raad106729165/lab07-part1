@@ -10,10 +10,10 @@
     <h1>PHP Arrays</h1>
     <?php
         // declare and initialise the array with the days of the week
-        $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+        $days = array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi");
 
         // display the array as a comma-separated list
-        echo "<p>The days of the week in English are: " . implode(", ", $days) . ".</p>";
+        echo "<p>The days of the week in French are: " . implode(", ", $days) . ".</p>";
     ?>
 </body>
 </html>
